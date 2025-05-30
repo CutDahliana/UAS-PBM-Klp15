@@ -1,3 +1,10 @@
+# UAS PEMROGRAMAN BERBASIS MOBILE A
+
+# LokaTravel
+## Anggota :
+### 2208107010027_Cut Dahliana
+### 2208107010061_Zuwi Pertiwi
+
 # Deskripsi
 LokaTravel adalah aplikasi mobile berbasis Android yang dirancang untuk membantu wisatawan dalam menjelajahi keindahan alam dan budaya Indonesia. Aplikasi ini menyediakan informasi lengkap tentang destinasi wisata populer di Indonesia, berita terkini seputar pariwisata, dan fitur manajemen profil pengguna.
 
