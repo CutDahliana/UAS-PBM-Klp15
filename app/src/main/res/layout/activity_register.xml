@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.register.RegisterActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFF">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarlogin"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/registerText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/REGISTER_APP_TEXT"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+        <View
+            android:id="@+id/vw_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="60dp"
+            android:background="#f4f7fe"
+            app:layout_constraintTop_toBottomOf="@id/toolbarlogin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="28dp"
+            android:paddingRight="28dp"
+            android:paddingTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/vw_line">
+
+            <ImageView
+                android:id="@+id/Iv_Register"
+                android:layout_width="209dp"
+                android:layout_height="183dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/REGISTER_TEXT"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/lokalogo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/WELCOME_REGISTER_TEXT"
+                android:textColor="#000000"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@id/Iv_Register"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_Welcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="0.4"
+                android:text="@string/MSG_REGISTER"
+                android:textColor="#000000"
+                app:layout_constraintTop_toBottomOf="@id/tv_Welcome"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="15dp" />
+
+            <LinearLayout
+                android:id="@+id/Ln_Register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_Name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginBottom="4dp"
+                    android:alpha="0.4"
+                    android:text="@string/FULL_NAME"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <com.example.lokatravel.ui.customview.CustomName
+                    android:id="@+id/et_Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:drawableEnd="@drawable/ic_user"
+                    android:drawablePadding="8dp"
+                    android:hint="@string/HINT_FULL_NAME"
+                    android:inputType="textPersonName"
+                    android:maxLines="1"
+                    android:minHeight="48dp"
+                    android:padding="8dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="#80837E7E"
+                    android:textSize="14sp" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="14dp" />
+
+                <TextView
+                    android:id="@+id/tv_Email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginBottom="4dp"
+                    android:alpha="0.4"
+                    android:text="@string/EMAIL"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <com.example.lokatravel.ui.customview.CustomEmail
+                    android:id="@+id/et_Email"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="5dp"
+                    android:drawableEnd="@drawable/ic_email"
+                    android:drawablePadding="8dp"
+                    android:hint="@string/HINT_EMAIL"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:padding="8dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="#757575"
+                    android:textSize="14sp" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp" />
+
+                <TextView
+                    android:id="@+id/tv_Password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginBottom="4dp"
+                    android:alpha="0.4"
+                    android:text="@string/PASSWORD"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <com.example.lokatravel.ui.customview.CustomPassword
+                    android:id="@+id/et_Password"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="5dp"
+                    android:drawablePadding="8dp"
+                    android:hint="@string/HINT_PASSWORD"
+                    android:drawableEnd="@drawable/ic_lock"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:padding="8dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="#80837E7E"
+                    android:textSize="14sp" />
+
+                <CheckBox
+                    android:id="@+id/cbShowPassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginStart="4dp"
+                    android:text="@string/show_password"
+                    android:textSize="12sp" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp" />
+
+                <TextView
+                    android:id="@+id/tv_ConfirmPassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginBottom="4dp"
+                    android:alpha="0.4"
+                    android:text="@string/CONFIRM_PASSWORD"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <com.example.lokatravel.ui.customview.CustomPassword
+                    android:id="@+id/et_ConfirmPass"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="5dp"
+                    android:drawablePadding="8dp"
+                    android:hint="@string/HINT_CONFIRM_PASSWORD"
+                    android:drawableEnd="@drawable/ic_lock"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:padding="8dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="#80837E7E"
+                    android:textSize="14sp" />
+
+                <CheckBox
+                    android:id="@+id/cbShowConfirmPassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginStart="4dp"
+                    android:text="@string/show_password"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_gravity="center">
+
+                <CheckBox
+                    android:id="@+id/cbLocation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:checked="false" />
+
+                <TextView
+                    android:id="@+id/Termcondition"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginHorizontal="10dp"
+                    android:maxLines="3"
+                    android:text="@string/TermCondition"
+                    app:layout_constraintStart_toEndOf="@id/cbLocation"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnRegister"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:backgroundTint="@color/black"
+                    android:text="@string/REGISTER_TEXT"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/Ln_Register" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:id="@+id/tv_Login"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Sudah punya akun? Login di sini"
+                    android:textSize="14sp"
+                    android:textColor="@color/black" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminateTint="@color/black"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:visibility="visible" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

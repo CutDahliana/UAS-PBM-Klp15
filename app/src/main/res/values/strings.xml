@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">LokaTraave</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="LOGIN_APP_TEXT">LokaTravel</string>
+    <string name="EMAIL">Email</string>
+    <string name="PASSWORD">Password</string>
+    <string name="LOGIN_TEXT">Login</string>
+    <string name="ERROR_EMAIL_EMPTY">Name cannot be empty</string>
+    <string name="ERROR_EMAIL_INVALID_FORMAT">The email format entered is invalid</string>
+    <string name="ERROR_EMAIL_ALREADY_REGISTERED">This email is already registere</string>
+    <string name="HINT_EMAIL">Enter Your Email</string>
+    <string name="ERROR_PASSWORD_EMPTY">Password cannot be empty</string>
+    <string name="ERROR_PASSWORD_LENGTH">Password must be at least 8 characters</string>
+    <string name="ERROR_PASSWORD_MISMATCH">Password and confirm password do not match</string>
+    <string name="HINT_PASSWORD">Enter Your Password</string>
+    <string name="WELCOME_LOGIN_TEXT">Welcome\n</string>
+    <string name="MSG_LOGIN">Welcome To LokaTravel</string>
+    <string name="WELCOME_REGISTER_TEXT">Create account</string>
+    <string name="MSG_REGISTER">Get the best out of derleng by creating an account</string>
+    <string name="FULL_NAME">Full name</string>
+    <string name="ERROR_NAME_EMPTY">Name cannot be empty</string>
+    <string name="ERROR_NAME_TOOLONG">Name cannot exceed 25 characters</string>
+    <string name="HINT_FULL_NAME">Enter Full Name</string>
+    <string name="HINT_CONFIRM_PASSWORD">Enter Your Password</string>
+    <string name="CONFIRM_PASSWORD">Confirm Password</string>
+    <string name="REGISTER_APP_TEXT">LokaTravel</string>
+    <string name="REGISTER_TEXT">Register</string>
+    <string name="TermCondition">I accept term and condition</string>
+    <string name="INFO_REGISTER_TEXT">Dont Have an Account?\n</string>
+    <string name="INFO_LOGIN_TEXT">Already Have an Account?</string>
+    <string name="COPYRIGHT">LokaTravel Right Reserved</string>
+    <string name="welcomeText">Discovering Indonesia: Nature and Culture Unveiled</string>
+    <string name="search">Search\n</string>
+    <string name="HOME_TEXT">Discovering Indonesia: Nature and Culture Unveiled</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile\n</string>
+    <string name="news">News\n</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="PROFILE">PROFILE</string>
+    <string name="INFO">Other Information</string>
+    <string name="REPORT_BUG">Report Bug\n</string>
+    <string name="LOGOUT">Log Out</string>
+    <string name="LAST_LOGIN">Last Login</string>
+    <string name="ERROR_PASSWORD_NOTSAME">The password or email you entered is incorrect</string>
+    <string name="ERROR_EDITEXT_EMPTY">Please fill in all fields correctly</string>
+    <string name="preference_file_key">com.example.lokatravel.PREFERENCE_FILE_KEY</string>
+    <string name="saved_login_status_key">com.example.lokatravel.PREFERENCE_FILE_KEY</string>
+    <string name="saved_name_key">saved</string>
+    <string name="saved_email_key">saved\n</string>
+    <string name="show_password">Show Password</string>
+</resources>

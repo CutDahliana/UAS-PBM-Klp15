@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="LOGIN_APP_TEXT">LokaTravel</string>
+    <string name="PASSWORD">Password</string>
+    <string name="ERROR_EMAIL_INVALID_FORMAT">The email format entered is invalid</string>
+    <string name="HINT_EMAIL">Enter Your Email</string>
+    <string name="ERROR_PASSWORD_LENGTH">Password must be at least 8 characters</string>
+    <string name="ERROR_PASSWORD_MISMATCH">Password and confirm password do not match</string>
+    <string name="HINT_PASSWORD">Enter Your Password</string>
+    <string name="WELCOME_LOGIN_TEXT">Welcome\n</string>
+    <string name="MSG_LOGIN">Welcome To LokaTrave</string>
+    <string name="WELCOME_REGISTER_TEXT">Create account</string>
+    <string name="MSG_REGISTER">Get the best out of derleng by creating an account</string>
+    <string name="FULL_NAME">Full name</string>
+    <string name="ERROR_NAME_EMPTY">Name cannot be empty</string>
+    <string name="ERROR_NAME_TOOLONG">Name cannot exceed 25 characters</string>
+    <string name="HINT_FULL_NAME">Enter Full Name</string>
+    <string name="HINT_CONFIRM_PASSWORD">Enter Your Passwor\n\n</string>
+    <string name="CONFIRM_PASSWORD">Confirm Password</string>
+    <string name="REGISTER_APP_TEXT">LokaTravel</string>
+    <string name="REGISTER_TEXT">Register</string>
+    <string name="TermCondition">I accept term and condition</string>
+    <string name="INFO_REGISTER_TEXT">Dont Have an Account?\n</string>
+    <string name="INFO_LOGIN_TEXT">Already Have an Account?</string>
+    <string name="COPYRIGHT">LokaTravel Right Reserved</string>
+    <string name="welcomeText">Discovering Indonesia: Nature and Culture Unveiled</string>
+    <string name="search">Search\n</string>
+    <string name="HOME_TEXT">Discovering Indonesia: Nature and Culture Unveiled</string>
+    <string name="home">Home</string>
+    <string name="news">News\n</string>
+    <string name="PROFILE">PROFILE</string>
+</resources>
